@@ -11,22 +11,22 @@ Our data analysis included using Levenshtein distances (LD) and a confidence rev
 
 ## Transcribe code
 
-import boto3
-transcribe = boto3.client('transcribe')
+`import boto3`
+`transcribe = boto3.client('transcribe')`
 
-job_name = "American_Medium_Transcribed_Correct"
-job_uri = "https://350-public-audio-files.s3.amazonaws.com/American+Medium+Audio+Extracted+2.wav"
+`job_name = "American_Medium_Transcribed_Correct"`
+`job_uri = "https://350-public-audio-files.s3.amazonaws.com/American+Medium+Audio+Extracted+2.wav"`
 
 In this example, we instructed Amazon Sagemaker to look for a file in the "Audio" S3 Bucket. In this bucket, we acquired the file that contains the sound bite of the American-accented female voice reading back the TED Talk transcript.
 
 
-transcribe.start_transcription_job(
+`transcribe.start_transcription_job(
     TranscriptionJobName=job_name,
     Media={'MediaFileUri': job_uri}, 
     MediaFormat='wav',
     LanguageCode='en-US',
     OutputBucketName='350-public-generated-transcript'
-)
+)`
 
 ## Actual Transcription Process
 
