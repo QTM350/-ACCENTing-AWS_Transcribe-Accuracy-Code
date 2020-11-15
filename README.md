@@ -64,6 +64,8 @@ Because TTSReader is a paid service, we have provided a collection of all proces
 ## Where users can get help with your project
 Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
 
+Links for aws help documentation for services!!!!
+
 
 ## Project Architecture 
 
