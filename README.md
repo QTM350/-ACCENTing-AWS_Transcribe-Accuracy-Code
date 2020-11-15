@@ -10,7 +10,7 @@ Our project's goal is to test the accuracy of Amazon Transcribe when converting 
 Our data analysis included using Levenshtein distances (LD) and a confidence review on Transcribe. The LD was used to measure the difference between two sequences. This helps to determine the amount of single character edits between  two scripts. 
 
 ## ttsreader.com
-![ts](tts_reader.jpg)
+![ts](pics/tts_reader.jpg)
 
 ## Transcribe code
 
