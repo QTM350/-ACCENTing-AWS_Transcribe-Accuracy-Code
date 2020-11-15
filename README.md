@@ -15,6 +15,7 @@ Our data analysis included using Levenshtein distances (LD) and a confidence rev
 `transcribe = boto3.client('transcribe')`
 
 `job_name = "American_Medium_Transcribed_Correct"`
+
 `job_uri = "https://350-public-audio-files.s3.amazonaws.com/American+Medium+Audio+Extracted+2.wav"`
 
 In this example, we instructed Amazon Sagemaker to look for a file in the "Audio" S3 Bucket. In this bucket, we acquired the file that contains the sound bite of the American-accented female voice reading back the TED Talk transcript.
