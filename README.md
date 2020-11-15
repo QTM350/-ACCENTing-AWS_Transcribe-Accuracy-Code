@@ -23,3 +23,10 @@ This project is very useful to our knowledge and to AWS and Sagemaker. By fully 
 ## Where users can get help with your project
 Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides 
 
+## AWS Services used:
+- Amazon Transcribe
+- Amazon Sagemaker
+- Amazon S3
+
+## Project Architecture 
+
