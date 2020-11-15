@@ -21,6 +21,7 @@ This project is very useful to our knowledge and to AWS and Sagemaker. By fully 
 ## How users can get started with the project
 
 
+
 ## Where users can get help with your project
 Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
 
@@ -31,3 +32,4 @@ Anyone who is interested in replicating this project can access our data in the 
 
 ## Project Architecture 
 
+![PA](arch.png)
