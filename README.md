@@ -11,8 +11,10 @@ Our data analysis included using Levenshtein distances (LD) and a confidence rev
 
 
 
-
 Why the project is useful
+
+This project is very useful to our knowledge and to AWS and Sagemaker. By fully understanding the limitations and obstacles in our project, we could find the areas of improvement for Transcribe. This could in turn help to make Transcribe more efficient and accurate. Some examples could be that more accents could be added. Since Transcribe is such a powerful tool, fixing its flaws, would help to make it even more useful to users. 
+
 
 
 How users can get started with the project
