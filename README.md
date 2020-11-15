@@ -56,7 +56,7 @@ This project is very useful to our knowledge and to AWS and Sagemaker. By fully 
 include step by step here
 
 ### ttsreader.com
-[](pics/tts_reader.jpg)
+![tss](pics/tts_reader.jpg)
 
 ### Access to Audio Recordings
 Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing)
