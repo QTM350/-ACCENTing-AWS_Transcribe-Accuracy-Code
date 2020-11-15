@@ -72,7 +72,7 @@ Anyone who is interested in replicating this project can access our data in the 
 
 ## Sources
 
-Websites:
+### Websites:
 
 AWS. "Amazon Transcribe." [link](https://aws.amazon.com/transcribe/?nc=sn&loc=0)
 
@@ -90,13 +90,4 @@ Speech-to-text. [link](https://ttsreader.com/)
 
 Urban, Tim. "Inside the mind of a master procrastinator." [link](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript#t-25363)
 
-
-## Images:
-
-Amazon Transcribe. ![link](https://miro.medium.com/max/400/0*BNicZbcGBnG5t2qX.png)
-
-
-Globalization.  ![link](https://youmatter.world/app/uploads/sites/2/2019/01/globalization-definition-benefits-effects-examples.jpg)
-
-Hello in Languages. ![link](https://bilingua.io/wp-content/uploads/2017/05/hello-in-100-languages.jpg)
 
