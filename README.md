@@ -9,9 +9,6 @@ Our project's goal is to test the accuracy of Amazon Transcribe when converting 
 
 Our data analysis included using Levenshtein distances (LD) and a confidence review on Transcribe. The LD was used to measure the difference between two sequences. This helps to determine the amount of single character edits between  two scripts. 
 
-## ttsreader.com
-![ts](pics/tts_reader.jpg)
-
 ## Transcribe code
 
 `import boto3`
@@ -70,3 +67,23 @@ Anyone who is interested in replicating this project can access our data in the 
 ## Project Architecture 
 
 ![PA](arch.png)
+
+
+## Sources
+
+Websites:
+
+AWS. "Amazon Transcribe." [link]!(https://aws.amazon.com/transcribe/?nc=sn&loc=0)
+Besner, Linda. "When Is a Caption Close Enough?" [link]!(https://www.theatlantic.com/health/archive/2019/08/youtube-captions/595831/)
+Diana. "Transcript: A Pep Talk From Kid President." [link]!( http://complicatedmelody.com/content/transcript-pep-talk-kid-president)
+Everson, Howard T., Tobias, Sigmund. "The ability to estimate knowledge and performance in college: A megacognitive analysis." [link]!(https://link.springer.com/article/10.1023/A:1003040130125)
+List from Wikipedia. "List of countries by English-speaking population." [link]!(https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)
+Radecic, Dario. "Calculating String Similarity in Python." [link]!(https://towardsdatascience.com/calculating-string-similarity-in-python-276e18a7d33a)
+Speech-to-text. [link]!(https://ttsreader.com/)
+Urban, Tim. "Inside the mind of a master procrastinator." [link]!(https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript#t-25363)
+Images:
+
+Amazon Transcribe. [link]!(https://miro.medium.com/max/400/0*BNicZbcGBnG5t2qX.png)
+Globalization.  [link]!(https://youmatter.world/app/uploads/sites/2/2019/01/globalization-definition-benefits-effects-examples.jpg)
+Hello in Languages.[link]!(https://bilingua.io/wp-content/uploads/2017/05/hello-in-100-languages.jpg)
+
