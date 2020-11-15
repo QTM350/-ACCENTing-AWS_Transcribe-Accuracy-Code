@@ -4,6 +4,10 @@ Project using AWS Transcribe to measure how accurate the service is when convert
 
 What the project does
 
+Our project's goal is to test the accuracy of Amazon Transcribe when converting speech-to test 
+
+
+
 Why the project is useful
 
 
