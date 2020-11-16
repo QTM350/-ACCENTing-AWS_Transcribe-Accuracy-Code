@@ -31,21 +31,21 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ## Navigating the Repository
 
-To see the transcripts that are being used for transcription: actual-transcript-for-comparison folder
+To see the transcripts that are being used for transcription: [actual-transcript-for-comparison folder](actual-transcript-for-comparison/)
 
  Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the audio-files-for-transcription folder.
 
-To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
+To see how to generate transcripts using AWS Transcribe: [aws-generated-transcriptions folder](aws-generated-transcriptions/) 
 
-To see data for Levenshtein Distance: Data for Levenshtein distance.csv
+To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](Data for Levenshtein distance.csv)
 
-To see levels of Transcribe confidence in particular words: Data_for_word_length_and_confidence.csv
+To see levels of Transcribe confidence in particular words: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv)
 
-To access collab notebooks: notebook-code folder
+To access collab notebooks: [notebook-code folder](notebook-code/)
 
-To access the blog for our project: Qtm350_Final_Blog.ipyng folder
+To access the blog for our project: [Qtm350_Final_Blog.ipyng](Qtm350_Final_Blog.ipyng)
 
-To view architecture: arch.png
+To view architecture diagram: [arch.png](arch.png)
 
 ---
 
