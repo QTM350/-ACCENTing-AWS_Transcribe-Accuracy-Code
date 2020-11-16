@@ -24,7 +24,7 @@ Links for aws help documentation for services!!!!
 
 ### ttsreader.com
 
-We decided to use ttsreader.com for converting our original transcripts to speech due to the service’s “natural multilingual voice” feature. This webpage offers male & female voices, in different accents and different languages. Our project limited the speeches to female voices to limit the external noise that may have arisen from our analysis.
+We decided to use ttsreader.com for converting our original transcripts to speech due to the service’s “natural multilingual voice” feature. This webpage offers male & female voices, in different accents and different languages. It also allowed us to export and save the synthesized speech from our data text. Our project limited the speeches to female voices to minimize the external noise that may have arisen from our analysis.
 
 ![tss](pics/tts_reader.jpg)
 
