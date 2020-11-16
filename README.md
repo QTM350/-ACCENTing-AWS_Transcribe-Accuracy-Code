@@ -43,7 +43,7 @@ To see levels of Transcribe confidence in particular words: [Data_for_word_lengt
 
 To access collab notebooks: [notebook-code folder](notebook-code/)
 
-To access the blog for our project: [Qtm350_Final_Blog.ipyng](Qtm350_Final_Blog.ipyng)
+To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb)
 
 To view architecture diagram: [arch.png](arch.png)
 
