@@ -6,60 +6,24 @@ Our project's goal is to test the accuracy of Amazon Transcribe when converting 
 
 Our data analysis included using Levenshtein distances (LD) and a confidence review on Transcribe. The LD was used to measure the difference between two sequences. This helps to determine the amount of single character edits between  two scripts. 
 
-## Transcribe code
-
-`import boto3`
-`transcribe = boto3.client('transcribe')`
-
-`job_name = "American_Medium_Transcribed_Correct"`
-
-`job_uri = "https://350-public-audio-files.s3.amazonaws.com/American+Medium+Audio+Extracted+2.wav"`
-
-In this example, we instructed Amazon Sagemaker to look for a file in the "Audio" S3 Bucket. In this bucket, we acquired the file that contains the sound bite of the American-accented female voice reading back the TED Talk transcript.
-
-
-`transcribe.start_transcription_job(
-    TranscriptionJobName=job_name,
-    Media={'MediaFileUri': job_uri}, 
-    MediaFormat='wav',
-    LanguageCode='en-US',
-    OutputBucketName='350-public-generated-transcript'
-)`
-
-## Actual Transcription Process
-
-TranscriptionJobName: the name of this particular transcription job, which is the TED Talk in the American accent in this case.
-
-Media: the media file to be transcribed, which is the actual audio file containing the speaker's rendition of the passage.
-
-MediaFormat: the format of the media file which is in .wav.
-
-LanguageCode: the language of the audio file. We want English in this analysis.
-
-OutputBucketName: the S3 bucket in which we want the transcript to be stored, in this case, 350-public-generated-transcript. 
-
-The remaining audio files were generated into transcripts in this manner.
-
-
-
-## Why the project is useful
+## Project Goals 
 
 This project is very useful to our knowledge and to AWS and Sagemaker. By fully understanding the limitations and obstacles in our project, we could find the areas of improvement for Transcribe. This could in turn help to make Transcribe more efficient and accurate. Some examples could be that more accents could be added. Since Transcribe is such a powerful tool, fixing its flaws, would help to make it even more useful to users. 
 
 
 
+---
 
-## How users can get started with the project
-include step by step here
+
+# Project Data
+Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
+
+Links for aws help documentation for services!!!!
+
 
 ### ttsreader.com
 ![tss](pics/tts_reader.jpg)
 
-
-# Where users can get help with your project
-Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
-
-Links for aws help documentation for services!!!!
 
 ## Navigating the Repository
 
@@ -79,6 +43,9 @@ To access the blog for our project: Qtm350_Final_Blog.ipyng folder
 
 To view architecture: arch.png
 
+---
+
+
 
 # Project Architecture 
 
@@ -89,7 +56,41 @@ To view architecture: arch.png
 - Amazon Sagemaker
 - Amazon S3
 
+### Amazon Transcibe code
 
+`import boto3`
+`transcribe = boto3.client('transcribe')`
+
+`job_name = "American_Medium_Transcribed_Correct"`
+
+`job_uri = "https://350-public-audio-files.s3.amazonaws.com/American+Medium+Audio+Extracted+2.wav"`
+
+In this example, we instructed Amazon Sagemaker to look for a file in the "Audio" S3 Bucket. In this bucket, we acquired the file that contains the sound bite of the American-accented female voice reading back the TED Talk transcript.
+
+```
+transcribe.start_transcription_job(
+    TranscriptionJobName=job_name,
+    Media={'MediaFileUri': job_uri}, 
+    MediaFormat='wav',
+    LanguageCode='en-US',
+    OutputBucketName='350-public-generated-transcript'
+)
+```
+### Actual Transcription Process
+
+TranscriptionJobName: the name of this particular transcription job, which is the TED Talk in the American accent in this case.
+
+Media: the media file to be transcribed, which is the actual audio file containing the speaker's rendition of the passage.
+
+MediaFormat: the format of the media file which is in .wav.
+
+LanguageCode: the language of the audio file. We want English in this analysis.
+
+OutputBucketName: the S3 bucket in which we want the transcript to be stored, in this case, 350-public-generated-transcript. 
+
+The remaining audio files were generated into transcripts in this manner.
+
+---
 
 # Improvements & Further Analysis
 For further analysis, comparisons can be made between Amazon Transcribe and other speech-to-text services including Dragon Professional, Otter, Speechmatic, etc… Readers may even use this data to do comparisons against other cloud service transcription services like Google Cloud’s Speech-to-Text or Microsoft Azure Speech to Text. These findings can help determine which services are worth the price since all of these examples are paid services.  
@@ -98,7 +99,7 @@ This project will also be helpful in comparing the quality of current closed cap
 
 
 
-
+---
 
 ## Sources
 
