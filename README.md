@@ -37,7 +37,7 @@ To see the transcripts that are being used for transcription: [actual-transcript
 
 To see how to generate transcripts using AWS Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts) 
 
-To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](Data for Levenshtein distance.csv)
+To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv)
 
 To see levels of Transcribe confidence in particular words: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv)
 
