@@ -85,8 +85,6 @@ To get the audio files of the transcripts before transcription: audio-files-for-
 
 To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
 
-To see download Raw Data: raw-data folder
-
 To see data for Levenshtein Distance: Data for Levenshtein distance.csv
 
 To see levels of Transcribe confidence in particular words: Data_for_word_length_and_confidence.csv
