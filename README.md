@@ -1,29 +1,6 @@
-## Instructins for Repo
-
-To see the transcripts that are being used for transcription: actual-transcript-for-comparison folder
-
-To get the audio files of the transcripts before transcription: audio-files-for-transcription folder
-
-To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
-
-To see data for Levenshtein Distance: Data for Levenshtein distance.csv
-
-To see levels of Transcribe confidence in particular words: Data_for_word_length_and_confidence.csv
-
-To access collab notebooks: notebook-code folder
-
-To access the blog for our project: Qtm350_Final_Blog.ipyng folder
-
-To view architecture: arch.png
-
-
 
 # ACCENTing Transcribe’s Accuracy-Code
 This project uses AWS Transcribe to measure how accurate the service is when converting speech-to-text when using non-native English. In combination with AWS Transcribe, we also used Amazon S3 buckets to store our data output from Transcribe.
-
-
-## What the project does
-
 
 Our project's goal is to test the accuracy of Amazon Transcribe when converting speech-to –text. We did so by testing out five different accents. The countries of origin included the United States, United Kingdom, China, Spain, and India. We decided to only look at female voices in order to control for other variations. We tested various transcripts from various scripts, using Transcribe within Sagemaker.
 
@@ -78,20 +55,36 @@ include step by step here
 ### ttsreader.com
 ![tss](pics/tts_reader.jpg)
 
-### Access to Audio Recordings
-Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing)
 
-## Where users can get help with your project
+# Where users can get help with your project
 Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
 
 Links for aws help documentation for services!!!!
 
+## Navigating the Repository
 
-## Project Architecture 
+To see the transcripts that are being used for transcription: actual-transcript-for-comparison folder
+
+ Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the audio-files-for-transcription folder.
+
+To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
+
+To see data for Levenshtein Distance: Data for Levenshtein distance.csv
+
+To see levels of Transcribe confidence in particular words: Data_for_word_length_and_confidence.csv
+
+To access collab notebooks: notebook-code folder
+
+To access the blog for our project: Qtm350_Final_Blog.ipyng folder
+
+To view architecture: arch.png
+
+
+# Project Architecture 
 
 ![PA](arch.png)
 
-### AWS Services used:
+## AWS Services used:
 - Amazon Transcribe
 - Amazon Sagemaker
 - Amazon S3
