@@ -85,11 +85,11 @@ To see download Raw Data: refer to the raw-data folder
 
 
 
+To access collab notebooks: notebooks-code folder
 
+To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
 
-To see how to generate transcripts using AWS Transcribe: refer to the aws-generated-transcriptions folder 
-
-
+To access the blog for our project: Qtm350_Final_Blog.ipyng folder
 
 
 
