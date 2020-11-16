@@ -35,7 +35,7 @@ To see the transcripts that are being used for transcription: [actual-transcript
 
  Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the audio-files-for-transcription folder.
 
-To see how to generate transcripts using AWS Transcribe: [aws-generated-transcriptions folder](aws-generated-transcriptions/) 
+To see how to generate transcripts using AWS Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts) 
 
 To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](Data for Levenshtein distance.csv)
 
