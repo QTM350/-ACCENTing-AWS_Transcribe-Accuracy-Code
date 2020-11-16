@@ -1,3 +1,23 @@
+## Instructins for Repo
+
+To see the transcripts that are being used for transcription: actual-transcript-for-comparison folder
+
+To get the audio files of the transcripts before transcription: audio-files-for-transcription folder
+
+To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
+
+To see data for Levenshtein Distance: Data for Levenshtein distance.csv
+
+To see levels of Transcribe confidence in particular words: Data_for_word_length_and_confidence.csv
+
+To access collab notebooks: notebook-code folder
+
+To access the blog for our project: Qtm350_Final_Blog.ipyng folder
+
+To view architecture: arch.png
+
+
+
 # ACCENTing Transcribe’s Accuracy-Code
 This project uses AWS Transcribe to measure how accurate the service is when converting speech-to-text when using non-native English. In combination with AWS Transcribe, we also used Amazon S3 buckets to store our data output from Transcribe.
 
@@ -77,23 +97,7 @@ Links for aws help documentation for services!!!!
 - Amazon S3
 
 
-## Instructins for Repo
 
-To see the transcripts that are being used for transcription: actual-transcript-for-comparison folder
-
-To get the audio files of the transcripts before transcription: audio-files-for-transcription folder
-
-To see how to generate transcripts using AWS Transcribe: aws-generated-transcriptions folder 
-
-To see data for Levenshtein Distance: Data for Levenshtein distance.csv
-
-To see levels of Transcribe confidence in particular words: Data_for_word_length_and_confidence.csv
-
-To access collab notebooks: notebook-code folder
-
-To access the blog for our project: Qtm350_Final_Blog.ipyng folder
-
-To view architecture: arch.png
 
 
 
