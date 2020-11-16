@@ -76,6 +76,28 @@ Links for aws help documentation for services!!!!
 - Amazon Sagemaker
 - Amazon S3
 
+
+## Instructins for Repo
+
+To see download Raw Data: refer to the raw-data folder
+
+
+
+
+
+
+
+To see how to generate transcripts using AWS Transcribe: refer to the aws-generated-transcriptions folder 
+
+
+
+
+
+
+
+
+
+
 ## Sources
 
 ### Websites:
