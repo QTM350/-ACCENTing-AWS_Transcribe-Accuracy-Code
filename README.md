@@ -1,10 +1,10 @@
 
 # ACCENTing Transcribe’s Accuracy-Code
-This project uses AWS Transcribe to convert English spoken and written passages into multiple non-native English languages. 
+This project uses AWS Transcribe to convert English spoken and written texts into multiple non-native English languages. 
 
 In combination with AWS Transcribe, we use Amazon S3 buckets to store our data output from AWS Transcribe. These tools allow us to do all the necessary conversions in order to make our project successful. 
 
-In order to measure the accuracy of AWS Transcribe when converting speech-to-text, in non-native English, we analyzed 3 different passages. We took these passages and converted them into five different country's languages. 
+In order to measure the accuracy of AWS Transcribe when converting speech-to-text, in non-native English, we analyzed 3 different texts. We took these texts and converted them into five different country's languages. 
 
 The countries of origin included the United States, United Kingdom, China, Spain, and India. One control we decided to account for is to only look at female voices. This helps control for other variations in the data. We tested these multiple transcripts from various scripts, using Transcribe that is within Sagemaker.
 
