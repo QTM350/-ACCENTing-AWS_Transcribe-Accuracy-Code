@@ -33,7 +33,9 @@ To see the transcripts that are being used for transcription: [actual-transcript
 
 - "Easy" Difficulty - A Pep Talk from Kid President by Kid President (SoulPancake)
 - "Medium" Difficulty - Inside the Mind of a Master Procrastinator by Tim Urban (TedTalk)
-- "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias
+- "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias.
+
+Links to the actual webpages and source of these excerpts are also provided at the bottom of the README.
 
  Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription).
 
