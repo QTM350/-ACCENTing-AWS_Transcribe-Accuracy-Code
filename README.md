@@ -83,6 +83,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Lengths, Visualize Data
 
+[ds](pics/datastruc.jpg)
 
 ###### *Both Jupyter Notebooks are formatted as .ipynb files*
 
@@ -92,6 +93,8 @@ Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Leng
 
 ###### Below is an example table taken from the blog outlining the major variations in the percentage of people who speak English in the selected countries for our project.
 
+<p align="center">
+
 | Country | % of Population who speak English |
 | ----------- | ----------- |
 | United States | 95.48% |
@@ -100,6 +103,7 @@ Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Leng
 | Spain | 22% |
 | India | 12.18% |
 
+</p>
 ---
 
 
