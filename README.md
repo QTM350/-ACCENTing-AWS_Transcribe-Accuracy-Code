@@ -10,15 +10,9 @@ One control we decided to account for is to only look at female voices. This hel
 
 Our data analysis included using Levenshtein distances and a confidence review on Transcribe. The Levenshtein distances was used to measure the difference between two sequences. This helps to determine the amount of single character edits between two scripts. We have included this data in the repo for the user to view.
 
-This project is very useful to our knowledge of AWS and Sagemaker. Using such powerful tools such as Tarnscribe, allows us to better understand AWS. In addition, doing a full accuracy testing on the AWS Transcribe allows us to find any limitations in the program.
-
-As we discuss later on, these little faults give us ideas for future improvements. We can also determine other projects that would benifit from using AWS Transcribe and future applicatiosn of our team's project.
+Anyone who is interested in replicating this project can access our data in this github repository. We also provide a [blog](https://colab.research.google.com/drive/1Zh4zfuPF4tj4p5B_aoUTPWHOtjMij6og?usp=sharing#scrollTo=tFOEa9EF71wM) on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
 
 ---
-
-# Project Data
-Anyone who is interested in replicating this project can access our data in the github repository. We also provide a [blog](https://colab.research.google.com/drive/1Zh4zfuPF4tj4p5B_aoUTPWHOtjMij6og?usp=sharing#scrollTo=tFOEa9EF71wM) on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
-
 
 ### ttsreader.com
 
@@ -71,9 +65,9 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 #### To access the collab notebooks containg our code: [notebook-code folder](notebook-code/). This folder contains two Jupyter Notebooks containg all the code from using Amazon Transcribe to generate transcriptions of the audio files to the code used for our analysis and data visualizations. These notebooks also provide commentary for the code and data used.
 
-Notebook 1: Generating Transcripts From Audio Files Using AWS Transcribe
+### Notebook 1: Generating Transcripts From Audio Files Using AWS Transcribe
 
-Notebook 2: Cleaning, Wrangling, and Visualizing Outputs from AWS Transcribe: The following graph illustrates the distribution of confidence scores.
+### Notebook 2: Cleaning, Wrangling, and Visualizing Outputs from AWS Transcribe: The following graph illustrates the distribution of confidence scores.
 
 ###### *Both Jupyter Notebooks are formatted as .ipynb files*
 
