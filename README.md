@@ -6,7 +6,7 @@
 
 ---
 # ACCENTing Transcribe’s Accuracy-Code
-This project uses AWS Transcribe to convert five multiple distinct non-native English accents into transcribed texts. 
+This project uses AWS Transcribe to make transcriptions out of English scripts recited in different accents. 
 
 In combination with AWS Transcribe, we used Amazon S3 buckets to store our data output from AWS Transcribe. These tools allow us to do all the necessary conversions in order to make our project successful. 
 
