@@ -53,11 +53,11 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ##### Accent
 The origin country used in ttsreader.com
 
-## Difficulty
+### Difficulty
 The corresponding text data outlined earlier in the README
 
-###### Lev Dist
-###### The calculated Levenshtein distance for the corresponding accent and difficulty rating.
+###### **Lev Dist**
+###### *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
 
 ---
 
