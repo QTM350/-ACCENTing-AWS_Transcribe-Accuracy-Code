@@ -17,17 +17,17 @@ As we discuss later on, these little faults give us ideas for future improvement
 ---
 
 # Project Data
-Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
+Anyone who is interested in replicating this project can access our data in the github repository. We also provide a [blog](https://colab.research.google.com/drive/1Zh4zfuPF4tj4p5B_aoUTPWHOtjMij6og?usp=sharing#scrollTo=tFOEa9EF71wM) on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
 
 
 ### ttsreader.com
 
-We decided to use ttsreader.com for converting our original transcripts to speech due to the service’s “natural multilingual voice” feature. This webpage offers male & female voices, in different accents and different languages. It also allowed us to export and save the synthesized speech from our data text. Our project limited the speeches to female voices to minimize the external noise that may have arisen from our analysis.
+We decided to use ttsreader.com for converting our original transcripts to speech due to the service’s “natural multilingual voice” feature. This webpage offers male & female voices, in different accents and different languages. It also allowed us to export and save the synthesized speech from our data text. *Our project limited the speeches to female voices to minimize the external noise that may have arisen from our analysis.*
 
 ![tss](pics/tts_reader.jpg)
 
 
-## Navigating the Repository
+# Navigating the Repository
 
 To see the transcripts that are being used for transcription: [actual-transcript-for-comparison folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/actual-transcripts-for-comparison). This folder contains three text files/initial data that we input into ttsreader.com to generate into audio recrdings. The scripts that we used were excerpts from the following:
 
@@ -41,12 +41,15 @@ Links to the actual webpages and source of these excerpts are also provided at t
  Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription). However, we recommend accessing the **google drive** for the audio recordings as each file is organized by name and difficulty rating. The audio-files-for-transcription folder only contains the URLs of the recordings from Amazon S3 in a txt format without any discernernability within each URL. *All audio recordings are formatted as .wav files*
 
 ---
-
 To see how to generate transcripts using AWS Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts) *All transcripts URLs are formatted as .json files*
+
 ---
 To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv)
+
 ---
+
 To see levels of Transcribe confidence in particular words: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv)
+
 ---
 To access collab notebooks: [notebook-code folder](notebook-code/)
 ---
