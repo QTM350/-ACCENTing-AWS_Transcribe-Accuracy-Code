@@ -1,10 +1,8 @@
 <p align="center">
   
- <img width="460" height="300" src="https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/pics/awsT.jpeg">
+ <img width="800" height="400" src="https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/pics/awsT.jpeg">
  
 </p>
-
-![awst](pics/awsT.jpeg) 
 
 ---
 # ACCENTing Transcribe’s Accuracy-Code
