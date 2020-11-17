@@ -1,4 +1,6 @@
+<p align="center">
 ![awst](pics/awsT.jpeg)
+</p>
 ---
 # ACCENTing Transcribe’s Accuracy-Code
 This project uses AWS Transcribe to convert five multiple distinct non-native English accents into transcribed texts. 
