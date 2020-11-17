@@ -19,8 +19,6 @@ As we discuss later on, these little faults give us ideas for future improvement
 # Project Data
 Anyone who is interested in replicating this project can access our data in the github repository. We also provide a blog on Google Colab that provides the motivation behind the project, explanations in our analysis (including what the Levenshtein distance is) and a visual for the confidence rating from Amazon Transcribe.
 
-Links for aws help documentation for services!!!!
-
 
 ### ttsreader.com
 
@@ -65,39 +63,6 @@ All AWS cloud computing services used in this project have been listed below alo
 - [Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html)
 
 
-### Amazon Transcibe code
-
-`import boto3`
-`transcribe = boto3.client('transcribe')`
-
-`job_name = "American_Medium_Transcribed_Correct"`
-
-`job_uri = "https://350-public-audio-files.s3.amazonaws.com/American+Medium+Audio+Extracted+2.wav"`
-
-In this example, we instructed Amazon Sagemaker to look for a file in the "Audio" S3 Bucket. In this bucket, we acquired the file that contains the sound bite of the American-accented female voice reading back the TED Talk transcript.
-
-```
-transcribe.start_transcription_job(
-    TranscriptionJobName=job_name,
-    Media={'MediaFileUri': job_uri}, 
-    MediaFormat='wav',
-    LanguageCode='en-US',
-    OutputBucketName='350-public-generated-transcript'
-)
-```
-### Actual Transcription Process
-
-TranscriptionJobName: the name of this particular transcription job, which is the TED Talk in the American accent in this case.
-
-Media: the media file to be transcribed, which is the actual audio file containing the speaker's rendition of the passage.
-
-MediaFormat: the format of the media file which is in .wav.
-
-LanguageCode: the language of the audio file. We want English in this analysis.
-
-OutputBucketName: the S3 bucket in which we want the transcript to be stored, in this case, 350-public-generated-transcript. 
-
-The remaining audio files were generated into transcripts in this manner.
 
 ---
 
