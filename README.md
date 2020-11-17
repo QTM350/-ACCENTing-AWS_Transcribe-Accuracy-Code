@@ -74,9 +74,12 @@ The following graph illustrates the distribution of confidence scores.
 
 ---
 
-#### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb)
+#### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb). This blog covers an overview of Amazon Transcribe, the objectives/motivations behind the project, the project Architecture, as well as the process of the data analysis from nb2-Data-Analysis.ipynb. 
 
-
+| Country | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 ---
 
 
