@@ -44,33 +44,36 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ###### *All audio recordings are formatted as .wav files*
 
 ---
-#### To access a txt file containing all the generated transcripts from Amazon Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts). This txt file contains all fifteen transcribed text URLs. These links includes the origin country accent in combination with assigned difficulty rating within the URL. Check out our blog for a code snippet on how to generate transcripts using AWS Transcribe!
+#### The result of a completed transcription job links to an Amazon Simple Storage Service (S3) presigned-url that contains our transcription in JSON format. To access a txt file containing all the generated transcripts from Amazon Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts). This txt file contains all fifteen transcribed text URLs. These links includes the origin country accent in combination with assigned difficulty rating within the URL. Check out our blog for a code snippet on how to generate transcripts using AWS Transcribe!
 
 ###### *All URLs in the .txt file contains transcripts formatted as .json files*
 
 ---
 #### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns;
-##### 1. Accent: The origin country used in ttsreader.com
+##### 1. Accent: *The origin country used in ttsreader.com.*
 
-##### 2. Difficulty: The corresponding text data outlined earlier in the README
+##### 2. Difficulty: *The corresponding text data outlined earlier in the README.*
 
 ##### 3. **Lev Dist**: *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
 
 ---
 
-#### To see levels of Transcribe confidence in particular words: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv)
+#### To see the confidence scores for each word in every accent transcribed by Amazon Transcribe: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv). This CSV file contains the same Accent and Difficulty columns from the Levenshtein file along with the following new columns;
 
+##### 1. confidence: *Amazon Transcribe generated confidence score for specified word.*
+
+##### 2. content: *Corresponding word from the text data.*
+
+##### 3. wrdLength: *Length of 'content' word.*
 ---
 
 #### To access collab notebooks: [notebook-code folder](notebook-code/)
+The following graph illustrates the distribution of confidence scores.
 
 ---
 
 #### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb)
 
----
-
-#### To view architecture diagram: [arch.png](arch.png)
 
 ---
 
@@ -89,7 +92,7 @@ All AWS cloud computing services used in this project have been listed below alo
 
 - [Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html)
 
-
+###### To view architecture diagram: [arch.png](arch.png)
 
 ---
 
