@@ -52,21 +52,21 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ---
 #### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns:
-##### 1. Accent: *The origin country used in ttsreader.com.*
+##### 1. `Accent`: *The origin country used in ttsreader.com.*
 
-##### 2. Difficulty: *The corresponding text data outlined earlier in the README.*
+##### 2. `Difficulty`: *The corresponding text data outlined earlier in the README.*
 
-##### 3. **Lev Dist**: *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
+##### 3. `Lev Dist`: *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
 
 ---
 
 #### To see the confidence scores for each word in every accent transcribed by Amazon Transcribe: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv). This CSV file contains the same 'Accent' and 'Difficulty' columns from the Levenshtein file along with the following new columns:
 
-##### 1. confidence: *Amazon Transcribe generated confidence score for specified word.*
+##### 1. `confidence`: *Amazon Transcribe generated confidence score for specified word.*
 
-##### 2. content: *Corresponding word from the text data.*
+##### 2. `content`: *Corresponding word from the text data.*
 
-##### 3. wrdLength: *Length of 'content' word.*
+##### 3. `wrdLength`: *Length of 'content' word.*
 ---
 
 #### To access the collab notebooks containg our code: [notebook-code folder](notebook-code/). This folder contains two Jupyter Notebooks containg all the code from using Amazon Transcribe to generate transcriptions of the audio files to the code used for our analysis and data visualizations. These notebooks also provide commentary for the code and data used.
