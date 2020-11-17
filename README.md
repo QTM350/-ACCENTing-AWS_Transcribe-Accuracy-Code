@@ -69,8 +69,13 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ##### 3. wrdLength: *Length of 'content' word.*
 ---
 
-#### To access collab notebooks: [notebook-code folder](notebook-code/)
-The following graph illustrates the distribution of confidence scores.
+#### To access the collab notebooks containg our code: [notebook-code folder](notebook-code/). This folder contains two Jupyter Notebooks containg all the code from using Amazon Transcribe to generate transcriptions of the audio files to the code used for our analysis and data visualizations. These notebooks also provide commentary for the code and data used.
+
+Notebook 1: Generating Transcripts From Audio Files Using AWS Transcribe
+
+Notebook 2: Cleaning, Wrangling, and Visualizing Outputs from AWS Transcribe: The following graph illustrates the distribution of confidence scores.
+
+###### *Both Jupyter Notebooks are formatted as .ipynb files*
 
 ---
 
@@ -112,7 +117,7 @@ For further analysis, comparisons can be made between Amazon Transcribe and othe
 
 This project will also be helpful in comparing the quality of current closed captioning not just for shows on Netflix but for videos on YouTube and other video streaming webpages. This project has the potential to improve the quality of transcription algorithms and ultimately benefit deaf or hard of hearing individuals by highlighing the need for accurately transcribed content.
 
-
+The automatic speech recognition (ASR) service limitations in this project can stem from ttsreader.com varying levels of accent thickness for certain countries. For example, the Spanish accent was much thicker than the Hindi accent, which may have been why the Spanish accent had the least accuracy and least confidence. In addition, the amount of punctuations in the scripts, such as commas and question marks, may have influenced the tone and cadence at which the scripts were read.
 
 ---
 
