@@ -51,7 +51,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ---
 #### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns:
 ##### Accent
-##### : The origin country used in ttsreader.com
+: The origin country used in ttsreader.com
 
 ##### Difficulty
 ##### : The corresponding text data outlined earlier in the README
