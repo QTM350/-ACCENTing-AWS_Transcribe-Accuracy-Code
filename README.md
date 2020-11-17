@@ -52,9 +52,9 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 #### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns;
 ##### 1. Accent: The origin country used in ttsreader.com
 
-### 2. Difficulty: The corresponding text data outlined earlier in the README
+##### 2. Difficulty: The corresponding text data outlined earlier in the README
 
-###### 3. **Lev Dist**: *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
+##### 3. **Lev Dist**: *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
 
 ---
 
