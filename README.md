@@ -73,15 +73,19 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ### Notebook 1: Generating Transcripts From Audio Files Using AWS Transcribe
 
+This notebook provides a thorough process and code for converting the fifteen audio files from ttsreader.com and obtaining a transcript for each one using Amazon Transcribe.
+This notebook also details the three Amazon S3 buckets used for this project:
 - actual-transcripts-for-comprison, a bucket for the actual transcript files of each excerpt,
 - audio-files-to-be-transcribed, a bucket to hold the audio files we want to transcribe, and
 - aws-generated-transcripts, a bucket to receive and store the output from Transcribe.
+
+Below is a tutorial covering the preferred permission setting in AWS to properly allow Amazon Transcribe and Amazon S3 to function cooperatively.
 
 [AWS Permissions Video Walkthrough](https://player.vimeo.com/video/479619829)
 
 ### Notebook 2: Cleaning, Wrangling, and Visualizing Outputs from AWS Transcribe: The following graph illustrates the distribution of confidence scores.
 
-Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Lengths, Visualize Data
+This notebook contains code on importing S3 transcript data, outling the data structure of the .json files (as pictured below), data analysis for calculating the Levenshtein distance, and code for creating visualizations of the word confidence scores by word lengths.
 
 ![ds](pics/datastruc.jpg)
 
