@@ -51,7 +51,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ###### *All URLs in the .txt file contains transcripts formatted as .json files*
 
 ---
-#### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns:
+#### To see data pertaining to our calculated Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns:
 ##### 1. `Accent`: *The origin country used in ttsreader.com.*
 
 ##### 2. `Difficulty`: *The corresponding text data outlined earlier in the README.*
@@ -93,7 +93,7 @@ This notebook contains code on importing S3 transcript data, outling the data st
 
 ---
 
-#### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb). This blog covers an overview of Amazon Transcribe, the objectives/motivations behind the project, the project Architecture, as well as the process of the data analysis from nb2-Data-Analysis.ipynb. 
+#### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb). This blog covers an overview of Amazon Transcribe, the objectives/motivations behind the project, the project architecture, as well as the process of the data analysis from nb2-Data-Analysis.ipynb. 
 
 ###### Below is an example table taken from the blog outlining the major variations in the percentage of people who speak English in the selected countries for our project.
 
