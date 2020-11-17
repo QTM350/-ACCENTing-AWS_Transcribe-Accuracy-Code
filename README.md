@@ -22,7 +22,9 @@ Anyone who is interested in replicating this project can access our data in the 
 
 ### ttsreader.com
 
-We decided to use ttsreader.com for converting our original transcripts to speech due to the service’s “natural multilingual voice” feature. This webpage offers male & female voices, in different accents and different languages. It also allowed us to export and save the synthesized speech from our data text. *Our project limited the speeches to female voices to minimize the external noise that may have arisen from our analysis.*
+We decided to use ttsreader.com for converting our original transcripts to speech due to the service’s “natural multilingual voice” feature. This webpage offers male & female voices, in different accents and different languages. It also allowed us to export and save the synthesized speech from our data text. 
+
+*Our project limited the speeches to female voices to minimize the external noise that may have arisen from our analysis.*
 
 ![tss](pics/tts_reader.jpg)
 
@@ -49,7 +51,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ###### *All URLs in the .txt file contains transcripts formatted as .json files*
 
 ---
-#### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns;
+#### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns:
 ##### 1. Accent: *The origin country used in ttsreader.com.*
 
 ##### 2. Difficulty: *The corresponding text data outlined earlier in the README.*
@@ -58,7 +60,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ---
 
-#### To see the confidence scores for each word in every accent transcribed by Amazon Transcribe: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv). This CSV file contains the same Accent and Difficulty columns from the Levenshtein file along with the following new columns;
+#### To see the confidence scores for each word in every accent transcribed by Amazon Transcribe: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv). This CSV file contains the same 'Accent' and 'Difficulty' columns from the Levenshtein file along with the following new columns:
 
 ##### 1. confidence: *Amazon Transcribe generated confidence score for specified word.*
 
@@ -92,7 +94,7 @@ All AWS cloud computing services used in this project have been listed below alo
 
 - [Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html)
 
-###### To view architecture diagram: [arch.png](arch.png)
+###### To download the architecture diagram: [arch.png](arch.png)
 
 ---
 
