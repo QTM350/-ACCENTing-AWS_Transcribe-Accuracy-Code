@@ -32,14 +32,14 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 #### To see the transcripts that are being used for transcription: [actual-transcript-for-comparison folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/actual-transcripts-for-comparison). This folder contains three text files/initial data that we input into ttsreader.com to generate into audio recrdings. The scripts that we used were excerpts from the following:
 
-- "Easy" Difficulty - A Pep Talk from Kid President by Kid President (SoulPancake)
-- "Medium" Difficulty - Inside the Mind of a Master Procrastinator by Tim Urban (TedTalk)
-- "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias.
+##### - "Easy" Difficulty - A Pep Talk from Kid President by Kid President (SoulPancake)
+##### - "Medium" Difficulty - Inside the Mind of a Master Procrastinator by Tim Urban (TedTalk)
+##### - "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias.
 
-Links to the actual webpages and source of these excerpts are also provided at the bottom of the README. 
+#### Links to the actual webpages and source of these excerpts are also provided at the bottom of the README. 
 
 ---
-##### Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription). However, we recommend accessing the **google drive** for the audio recordings as each file is organized by name and difficulty rating. The audio-files-for-transcription folder only contains the URLs of the recordings from Amazon S3 in a txt format without any discernernability within each URL. *All audio recordings are formatted as .wav files*
+#### Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription). However, we recommend accessing the **google drive** for the audio recordings as each file is organized by name and difficulty rating. The audio-files-for-transcription folder only contains the URLs of the recordings from Amazon S3 in a txt format without any discernernability within each URL. *All audio recordings are formatted as .wav files*
 
 ---
 #### To access a txt file containing all the generated transcripts from Amazon Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts). This txt file contains all fifteen transcribed text URLs. These links includes the origin country accent in combination with assigned difficulty rating within the URL. Check out our blog for a code snippet on how to generate transcripts using AWS Transcribe *All transcripts URLs are formatted as .json files*
@@ -49,19 +49,19 @@ Links to the actual webpages and source of these excerpts are also provided at t
 
 ---
 
-##### To see levels of Transcribe confidence in particular words: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv)
+#### To see levels of Transcribe confidence in particular words: [Data_for_word_length_and_confidence.csv](Data_for_word_length_and_confidence.csv)
 
 ---
 
-##### To access collab notebooks: [notebook-code folder](notebook-code/)
+#### To access collab notebooks: [notebook-code folder](notebook-code/)
 
 ---
 
-##### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb)
+#### To access the blog for our project: [Qtm350_Final_Blog.ipyng](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/QTM350_Final_Blog.ipynb)
 
 ---
 
-##### To view architecture diagram: [arch.png](arch.png)
+#### To view architecture diagram: [arch.png](arch.png)
 
 ---
 
