@@ -36,7 +36,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 ##### - "Medium" Difficulty - Inside the Mind of a Master Procrastinator by Tim Urban (TedTalk)
 ##### - "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias.
 
-#### Links to the actual webpages and source of these excerpts are also provided at the bottom of the README. 
+###### Links to the actual webpages and source of these excerpts are also provided at the bottom of the README. 
 
 ---
 #### Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription). However, we recommend accessing the **google drive** for the audio recordings as each file is organized by name and difficulty rating. The audio-files-for-transcription folder only contains the URLs of the recordings from Amazon S3 in a txt format without any discernernability within each URL. 
@@ -50,13 +50,13 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ---
 #### To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv). This CSV file includes three columns:
-##### Accent
+##### 1.Accent
 The origin country used in ttsreader.com
 
-### Difficulty
+### 2. Difficulty
 The corresponding text data outlined earlier in the README
 
-###### **Lev Dist**
+###### 3. **Lev Dist**
 ###### *The calculated Levenshtein distance for the corresponding accent and difficulty rating.*
 
 ---
