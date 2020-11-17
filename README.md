@@ -29,7 +29,11 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ## Navigating the Repository
 
-To see the transcripts that are being used for transcription: [actual-transcript-for-comparison folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/actual-transcripts-for-comparison)
+To see the transcripts that are being used for transcription: [actual-transcript-for-comparison folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/actual-transcripts-for-comparison). This folder contains three text files/initial data that we input into ttsreader.com to generate into audio recrdings. The scripts that we used were excerpts from the following:
+
+- "Easy" Difficulty - A Pep Talk from Kid President by Kid President (SoulPancake)
+- "Medium" Difficulty - Inside the Mind of a Master Procrastinator by Tim Urban (TedTalk)
+- "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias
 
  Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription).
 
