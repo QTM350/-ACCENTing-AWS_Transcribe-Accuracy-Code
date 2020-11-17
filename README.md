@@ -67,7 +67,16 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ### Notebook 1: Generating Transcripts From Audio Files Using AWS Transcribe
 
+- actual-transcripts-for-comprison, a bucket for the actual transcript files of each excerpt,
+- audio-files-to-be-transcribed, a bucket to hold the audio files we want to transcribe, and
+- aws-generated-transcripts, a bucket to receive and store the output from Transcribe.
+
+[AWS Permissions Video Walkthrough](https://player.vimeo.com/video/479619829)
+
 ### Notebook 2: Cleaning, Wrangling, and Visualizing Outputs from AWS Transcribe: The following graph illustrates the distribution of confidence scores.
+
+Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Lengths, Visualize Data
+
 
 ###### *Both Jupyter Notebooks are formatted as .ipynb files*
 
