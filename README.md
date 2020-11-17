@@ -83,7 +83,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Lengths, Visualize Data
 
-[ds](pics/datastruc.jpg)
+![ds](pics/datastruc.jpg)
 
 ###### *Both Jupyter Notebooks are formatted as .ipynb files*
 
@@ -104,6 +104,7 @@ Import Data, Data Structure, Data Analysis for LD and  Word Confidences and Leng
 | India | 12.18% |
 
 </p>
+
 ---
 
 
