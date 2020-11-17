@@ -26,6 +26,7 @@ We decided to use ttsreader.com for converting our original transcripts to speec
 
 ![tss](pics/tts_reader.jpg)
 
+---
 
 # Navigating the Repository
 
