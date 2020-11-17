@@ -1,12 +1,12 @@
 ---
 # ACCENTing Transcribe’s Accuracy-Code
-This project uses AWS Transcribe to convert English spoken and written texts into multiple non-native English languages. 
+This project uses AWS Transcribe to convert English spoken and written texts into five multiple distinct non-native English accents. 
 
-In combination with AWS Transcribe, we use Amazon S3 buckets to store our data output from AWS Transcribe. These tools allow us to do all the necessary conversions in order to make our project successful. 
+In combination with AWS Transcribe, we used Amazon S3 buckets to store our data output from AWS Transcribe. These tools allow us to do all the necessary conversions in order to make our project successful. 
 
-In order to measure the accuracy of AWS Transcribe when converting speech-to-text, in non-native English, we analyzed 3 different texts. We took these texts and converted them into five different country's languages. 
+In order to measure the accuracy of AWS Transcribe's speech-to-text, we took 3 different texts varying in syntax complexity and converted them into fifteen various audio files that contained a combination of one of the three difficulty ratings as well as one of the five accents (United States, United Kingdom, China, Spain, and India). 
 
-The countries of origin included the United States, United Kingdom, China, Spain, and India. One control we decided to account for is to only look at female voices. This helps control for other variations in the data. We tested these multiple transcripts from various scripts, using Transcribe that is within Sagemaker.
+One control we decided to account for is to only look at female voices. This helps control for other variations in the data. We tested these multiple transcripts from various scripts, using Transcribe that is within Sagemaker.
 
 Our data analysis included using Levenshtein distances and a confidence review on Transcribe. The Levenshtein distances was used to measure the difference between two sequences. This helps to determine the amount of single character edits between two scripts. We have included this data in the repo for the user to view.
 
@@ -35,10 +35,13 @@ To see the transcripts that are being used for transcription: [actual-transcript
 - "Medium" Difficulty - Inside the Mind of a Master Procrastinator by Tim Urban (TedTalk)
 - "Hard" Difficulty - The ability to estimate knowledge and performance in college: A metacognitive analysis by Howard T. Everson & Sigmund Tobias.
 
-Links to the actual webpages and source of these excerpts are also provided at the bottom of the README.
+Links to the actual webpages and source of these excerpts are also provided at the bottom of the README. 
+
 ---
  Because TTSReader is a paid service, we have provided a collection of all processed recordings in a [google drive](https://drive.google.com/drive/folders/1XMca6gJVa3iX1yEqHoQxlFnAMySBhFmX?usp=sharing). These files can also be located in the [audio-files-for-transcription folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/audio-files-for-transcription). However, we recommend accessing the **google drive** for the audio recordings as each file is organized by name and difficulty rating. The audio-files-for-transcription folder only contains the URLs of the recordings from Amazon S3 in a txt format without any discernernability within each URL. *All audio recordings are formatted as .wav files*
+
 ---
+
 To see how to generate transcripts using AWS Transcribe: [aws-generated-transcriptions folder](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/tree/main/aws-generated-transcripts) *All transcripts URLs are formatted as .json files*
 ---
 To see data for Levenshtein Distance: [Data for Levenshtein distance.csv](https://github.com/QTM350/ACCENTing-AWS_Transcribe-Accuracy-Code/blob/main/Data%20for%20Levenshtein%20distance.csv)
